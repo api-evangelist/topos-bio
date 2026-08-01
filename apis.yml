@@ -1,8 +1,23 @@
 aid: topos-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/topos-bio.png
 name: Topos Bio
-description: 'Topos Bio is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Topos Bio is an AI-native drug discovery company building all-atom foundation
+  models for intrinsically disordered proteins (IDPs) — dynamic, flexible proteins implicated
+  in diseases such as Alzheimer''s and prostate cancer. Its Topos-1 foundation model generates
+  physically realistic conformational ensembles for flexible proteins, aiming to make
+  previously undruggable targets therapeutically viable. The company is backed by Threshold
+  Ventures. No public API or developer platform is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/topos-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Drug Discovery
+- Artificial Intelligence
+- Biotech
+- Foundation Models
+- Computational Biology
+- Proteins
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/topos-bio-domain-security.yml
 - type: Website
   url: https://www.toposbio.ai/
+- type: About
+  url: https://www.toposbio.ai/about
+- type: PrivacyPolicy
+  url: https://www.toposbio.ai/privacy
+- type: TechnicalReport
+  url: https://www.toposbio.ai/Topos_1_Technical_Report.pdf
+- type: Press
+  url: https://www.toposbio.ai/press
+- type: Careers
+  url: https://jobs.ashbyhq.com/toposbio
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
